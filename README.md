@@ -21,17 +21,17 @@ To get started with these examples, you need to set up a virtual environment and
 
 2. Create a virtual environment:
    ```bash
-   virtualenv venv
+   python -m venv myenv
    ```
 
 3. Activate the virtual environment:
    - **Windows**:
      ```bash
-     venv\Scripts\activate
+     myenv\Scripts\activate
      ```
    - **Mac/Linux**:
      ```bash
-     source venv/bin/activate
+     source myenv/bin/activate
      ```
 
 ### Step 2: Install Required Libraries
